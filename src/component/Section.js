@@ -3,14 +3,16 @@ import styled from 'styled-components';
 
 
 
+
 function Section(props) {
 
     return (
         <Main bgImg={props.bgImg} >
-            <Head>
-                <h1>{props.title}</h1>
-                <p>{props.description}</p>
-            </Head>
+           
+                <Head >
+                    <h1 className="">{props.title}</h1>
+                    <p>{props.description}</p>
+                </Head>
 
             <Down>
                 <ButtonGP>
