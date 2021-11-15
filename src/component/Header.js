@@ -8,7 +8,7 @@ function Header() {
    const[show,setshow]=useState(false)
     return (
         <Container>
-            <a href="#">
+            <a href="/">
                 <img src='/images/logo.svg' alt='logo'></img>
             </a>
 
@@ -21,8 +21,8 @@ function Header() {
                 <a href="/">Solar Panels</a>    
             </Menu>
             <Sidebar>
-            <a href="#">Shop</a>
-            <a href="#">Account</a> 
+            <a href="/">Shop</a>
+            <a href="/">Account</a> 
             <p onClick={()=>{setshow(true);}}><FontAwesomeIcon icon={faBars} size="lg"></FontAwesomeIcon></p>
             </Sidebar>
             <BurgerMenu show={show}>
